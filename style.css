@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans&display=swap");
+
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* 
+
+    Work Sans
+    Weights: 400, 600, 700
+
+*/
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-pink: hsl(275, 100%, 97%);
+  --Grayish-purple: hsl(292, 16%, 49%);
+  --Dark-purple: hsl(292, 42%, 14%);
+}
+
+body {
+  background-image: url(/assets/images/background-pattern-desktop.svg);
+  background-repeat: repeat-x;
+  background-color: var(--Light-pink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  margin: 1.25rem;
+  max-width: 100%;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.main {
+  width: 600px;
+  height: 700px;
+  background-color: var(--White);
+  padding: 2.5rem;
+  border-radius: 1rem;
+}
+
+.top-content{
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.top-content img{
+    height: 35px;
+    width: 35px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
