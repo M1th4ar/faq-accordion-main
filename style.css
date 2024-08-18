@@ -42,7 +42,7 @@ body {
 
 .main {
   width: 600px;
-  height: 700px;
+  height: 500px;
   background-color: var(--White);
   padding: 2.5rem;
   border-radius: 1rem;
@@ -55,18 +55,36 @@ body {
     font-size: 2rem;
     align-items: center;
     margin-bottom: 1.25rem;
-    font-family: "Work Sans";
-    font-size: 700;
+    
 }
 
-.first-question h3{
-  font-weight: 600;
-  margin-bottom: 1rem;
+.top-content h2{
+  font-family: "Work Sans";
+  font-weight: 700;
 }
 
-.first-question p{
+.questions{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-size: 14px;
+}
+
+
+.questions h3{
+  font-family: "Work Sans";
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--Dark-purple);
+}
+
+.questions p{
+  display: none;
   font-weight: 400;
+  color: var(--Grayish-purple);
+  margin-top: 1rem;
   margin-bottom: 3rem;
+  line-height: 1.5rem;
 }
 
 .top-content img{
@@ -77,6 +95,9 @@ body {
 .flex{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 
